@@ -487,6 +487,7 @@ PODS:
   - ImageSlideshow/SDWebImage (1.9.2):
     - ImageSlideshow/Core
     - SDWebImage (>= 3.7)
+  - IQKeyboardManagerSwift (6.5.0)
   - leveldb-library (1.22.1)
   - nanopb (2.30908.0):
     - nanopb/decode (= 2.30908.0)
@@ -505,6 +506,7 @@ DEPENDENCIES:
   - Firebase/Storage
   - ImageSlideshow (~> 1.9.0)
   - ImageSlideshow/SDWebImage
+  - IQKeyboardManagerSwift
   - SDWebImage
 
 SPEC REPOS:
@@ -526,6 +528,7 @@ SPEC REPOS:
     - gRPC-Core
     - GTMSessionFetcher
     - ImageSlideshow
+    - IQKeyboardManagerSwift
     - leveldb-library
     - nanopb
     - PromisesObjC
@@ -549,11 +552,12 @@ SPEC CHECKSUMS:
   gRPC-Core: 4afa11bfbedf7cdecd04de535a9e046893404ed5
   GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
   ImageSlideshow: be305b54eaf2b2cfc7a7141c7c734605d44dc07d
+  IQKeyboardManagerSwift: 6cd19976c6e871907c4ed9127c2d3affdd4defc2
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
   SDWebImage: 53179a2dba77246efa8a9b85f5c5b21f8f43e38f
 
-PODFILE CHECKSUM: 8eff592c64805c9fc38c7e2df17cd9d1fd247a9e
+PODFILE CHECKSUM: 76c4ae6d6047fb29cded8fed7ca96e9e78a25d9c
 
 COCOAPODS: 1.11.2

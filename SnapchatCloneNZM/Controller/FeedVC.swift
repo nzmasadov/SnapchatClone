@@ -31,6 +31,11 @@ class FeedVC: UIViewController {
         getUserInfo()
     }
     
+    
+    @IBAction func toMessage(_ sender: Any) {
+        performSegue(withIdentifier: K.messageSegue, sender: nil)
+    }
+    
     func getUserInfo() {
         
         firestoreDatabase.collection("UserInfo").whereField("email", isEqualTo: Auth.auth().currentUser!.email!).getDocuments { snapshot, error in

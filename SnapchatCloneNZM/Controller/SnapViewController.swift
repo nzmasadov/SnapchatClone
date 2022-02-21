@@ -19,22 +19,26 @@ class SnapViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+
+        
        if let snap = selectedSnap {
            timeLabel.text = "Time left: \(snap.timeDifference) hours"
            for imageUrl in snap.imageUrlArray {
                inputArray.append(SDWebImageSource(urlString: imageUrl)!)
            }
            
-           let imageSlideShow = ImageSlideshow(frame: CGRect(x: 10, y: 10, width: self.view.frame.width * 0.95, height: self.view.frame.height * 0.9))
+           let imageSlideShow = ImageSlideshow(frame: CGRect(x: 10, y: 50, width: self.view.frame.width * 0.95, height: self.view.frame.height * 0.80))
 
-           imageSlideShow.backgroundColor = UIColor.white
+    
            
            let pageIndcator = UIPageControl()
            pageIndcator.currentPageIndicatorTintColor = UIColor.lightGray
            pageIndcator.pageIndicatorTintColor = UIColor.black
            imageSlideShow.pageIndicator = pageIndcator
            
-           imageSlideShow.contentScaleMode = .scaleAspectFit
+//           imageSlideShow.contentScaleMode = .scaleAspectFit
+           imageSlideShow.contentScaleMode = .scaleToFill
+
            imageSlideShow.setImageInputs(inputArray)
            self.view.addSubview(imageSlideShow)
            self.view.bringSubviewToFront(timeLabel)

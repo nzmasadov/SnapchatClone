@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF01FE5427C147450007A081 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF01FE5327C147450007A081 /* MessageViewController.swift */; };
+		BF01FE5927C14C580007A081 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF01FE5727C14C580007A081 /* MessageCell.swift */; };
+		BF01FE5A27C14C580007A081 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF01FE5827C14C580007A081 /* MessageCell.xib */; };
+		BF01FE5C27C1555F0007A081 /* Constans.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF01FE5B27C1555F0007A081 /* Constans.swift */; };
+		BF01FE5E27C155C30007A081 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF01FE5D27C155C30007A081 /* Message.swift */; };
 		BF36C8B427B01A840034CD51 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36C8B327B01A840034CD51 /* SettingsViewController.swift */; };
 		BF36C8B627B01C800034CD51 /* SnapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36C8B527B01C800034CD51 /* SnapViewController.swift */; };
 		BF36C8B827B01F360034CD51 /* Alert+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36C8B727B01F360034CD51 /* Alert+Extension.swift */; };
@@ -31,6 +36,11 @@
 		080BB89457B1B5FE24ADFEAD /* Pods-SnapchatCloneNZM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatCloneNZM.debug.xcconfig"; path = "Target Support Files/Pods-SnapchatCloneNZM/Pods-SnapchatCloneNZM.debug.xcconfig"; sourceTree = "<group>"; };
 		A8B05247BA50908BBD752F7E /* Pods-SnapchatCloneNZM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SnapchatCloneNZM.release.xcconfig"; path = "Target Support Files/Pods-SnapchatCloneNZM/Pods-SnapchatCloneNZM.release.xcconfig"; sourceTree = "<group>"; };
 		B49045C2CBEF9C008EB49EEF /* Pods_SnapchatCloneNZM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SnapchatCloneNZM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF01FE5327C147450007A081 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		BF01FE5727C14C580007A081 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		BF01FE5827C14C580007A081 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		BF01FE5B27C1555F0007A081 /* Constans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constans.swift; sourceTree = "<group>"; };
+		BF01FE5D27C155C30007A081 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		BF36C8B327B01A840034CD51 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		BF36C8B527B01C800034CD51 /* SnapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapViewController.swift; sourceTree = "<group>"; };
 		BF36C8B727B01F360034CD51 /* Alert+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alert+Extension.swift"; sourceTree = "<group>"; };
@@ -76,14 +86,16 @@
 		BF36C8B927B020BC0034CD51 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				BF85327F27AF2F4C00C1AFD3 /* FeedVC.swift */,
 				BF85326D27AF237900C1AFD3 /* SignInVC.swift */,
 				BF53458827B45F2200E807B3 /* SignUpViewController.swift */,
-				BF85327F27AF2F4C00C1AFD3 /* FeedVC.swift */,
 				BF62F66A27B108AC00ADDECC /* FeedViewCell.swift */,
 				BF85328127AF2F5B00C1AFD3 /* UploadVC.swift */,
 				BF36C8BA27B02F700034CD51 /* TabBarController.swift */,
 				BF36C8B327B01A840034CD51 /* SettingsViewController.swift */,
 				BF36C8B527B01C800034CD51 /* SnapViewController.swift */,
+				BF01FE5327C147450007A081 /* MessageViewController.swift */,
+				BF01FE5727C14C580007A081 /* MessageCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -92,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				BF85326F27AF237900C1AFD3 /* Main.storyboard */,
+				BF01FE5827C14C580007A081 /* MessageCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -126,6 +139,7 @@
 				BF85327427AF237A00C1AFD3 /* LaunchScreen.storyboard */,
 				BF85327727AF237A00C1AFD3 /* Info.plist */,
 				BF85327D27AF246400C1AFD3 /* GoogleService-Info.plist */,
+				BF01FE5B27C1555F0007A081 /* Constans.swift */,
 			);
 			path = SnapchatCloneNZM;
 			sourceTree = "<group>";
@@ -133,6 +147,7 @@
 		BF85328727AF2FB300C1AFD3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF01FE5D27C155C30007A081 /* Message.swift */,
 				BF36C8B727B01F360034CD51 /* Alert+Extension.swift */,
 				BF36C8BC27B03F830034CD51 /* UserSingleton.swift */,
 				BF62F66C27B1168800ADDECC /* SnapModel.swift */,
@@ -208,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF01FE5A27C14C580007A081 /* MessageCell.xib in Resources */,
 				BF85327627AF237A00C1AFD3 /* LaunchScreen.storyboard in Resources */,
 				BF85327E27AF246400C1AFD3 /* GoogleService-Info.plist in Resources */,
 				BF85327327AF237A00C1AFD3 /* Assets.xcassets in Resources */,
@@ -267,14 +283,18 @@
 				BF85328027AF2F4C00C1AFD3 /* FeedVC.swift in Sources */,
 				BF85326E27AF237900C1AFD3 /* SignInVC.swift in Sources */,
 				BF62F66B27B108AC00ADDECC /* FeedViewCell.swift in Sources */,
+				BF01FE5E27C155C30007A081 /* Message.swift in Sources */,
 				BF85326A27AF237900C1AFD3 /* AppDelegate.swift in Sources */,
 				BF36C8BD27B03F830034CD51 /* UserSingleton.swift in Sources */,
 				BF36C8BB27B02F700034CD51 /* TabBarController.swift in Sources */,
+				BF01FE5427C147450007A081 /* MessageViewController.swift in Sources */,
 				BF85328227AF2F5B00C1AFD3 /* UploadVC.swift in Sources */,
 				BF36C8B627B01C800034CD51 /* SnapViewController.swift in Sources */,
 				BF85326C27AF237900C1AFD3 /* SceneDelegate.swift in Sources */,
 				BF62F66D27B1168800ADDECC /* SnapModel.swift in Sources */,
+				BF01FE5927C14C580007A081 /* MessageCell.swift in Sources */,
 				BF36C8B827B01F360034CD51 /* Alert+Extension.swift in Sources */,
+				BF01FE5C27C1555F0007A081 /* Constans.swift in Sources */,
 				BF53458927B45F2200E807B3 /* SignUpViewController.swift in Sources */,
 				BF36C8B427B01A840034CD51 /* SettingsViewController.swift in Sources */,
 			);
@@ -435,7 +455,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,7 +486,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

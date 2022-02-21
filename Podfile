@@ -11,7 +11,8 @@ pod 'Firebase/Firestore'
 pod 'Firebase/Storage'
 pod 'SDWebImage'
 pod 'ImageSlideshow', '~> 1.9.0'
-pod "ImageSlideshow/SDWebImage"		
+pod "ImageSlideshow/SDWebImage"
+pod 'IQKeyboardManagerSwift'
 
   # Pods for SnapchatCloneNZM
 
